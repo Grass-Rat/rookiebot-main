@@ -2,6 +2,8 @@ import cv2
 from photonvision import PhotonCamera
 from wpilib import SmartDashboard
 
+#TODO: Update the commands to accept the vision system reference as an argument.
+
 class VisionSystem:
     def __init__(self):
         self.cam = PhotonCamera()
